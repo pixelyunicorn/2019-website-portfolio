@@ -1,0 +1,95 @@
+---
+layout: blank
+home: true
+permalink: /
+
+header-text: black
+pattern: hero-patterns/tic-tac-toe-05.svg
+---
+
+<header>
+  <container>
+    <row>
+      <column width="5"></column>
+      <column width="30">
+        <img src="/media/text/ms-title.svg" alt="Melody Starling" />
+      </column>
+      <column width="60">
+        <div class="blurble">
+          Hey there! I'm a interactive digital experience designer and developer from Philly!
+          <beg>Please hire me!</beg>
+        </div>
+<!--         <div class="replies">
+          <a class="reply">
+            How are you? 👋
+          </a>
+          <a class="reply">
+            What do you do? 😺
+          </a>
+          <a class="reply">
+            Cool site hon! 👀
+          </a>
+        </div>
+ -->
+      </column>
+      <column width="5"></column>
+    </row>
+  </container>
+</header>
+
+<!-- <hr class="wave" /> -->
+
+<section id="portfolio">
+  <container>
+    <grid column-count="2" phone-column-count="1">
+      <div class="taste">
+        <h3>I build interactive digital experiences that people enjoy.</h3>
+        <p>I have launched and improved 50+ projects for clients across the world. Here’s a quick taste of what I do:</p>
+        <row class="text-center">
+          <column>
+            <img src="{{ site.baseurl }}/media/icons/webdev.svg" alt="Icon showing web development">
+            Web <br class="hidden-phone">
+            Development
+          </column>
+          <column>
+            <img src="{{ site.baseurl }}/media/icons/design.svg" alt="Icon showing user interface design">
+            UX/UI <br class="hidden-phone">
+            Design
+          </column>
+          <column>
+              <img src="{{ site.baseurl }}/media/icons/community.svg" alt="Icon showing user community management">
+            Community <br class="hidden-phone">
+            Management
+          </column>
+        </row>
+        <div class="play-thing"><icon class="fas fa-play"></icon></div>
+      </div>
+
+      {% assign weighted = site.work | sort: 'weight' %}
+      {% for x in site.work %}
+      {% assign idx = forloop.index | plus: 0 %}
+          <a href="{{ x.url }}" class="pf-item brick" style="background-color: {{ x.accent-light }}; background-image: url({{ site.baseurl }}/media/{{ x.pattern }}); background-repeat: repeat; background-size: initial;" data-accent="{{ x.accent }}" data-cycle="{% cycle 'odd', 'even' %}">
+            <p>Exhibit <index style="color: {{ x.accent-light }}">{{ idx }}</index></p>
+            <h3><span class="number" style="background: {{ x.accent }}">#</span> {{ x.title }}</h3>
+                <p>{{ x.description }}</p>
+                <p class="link">{{ x.url-display }} <icon class="fas fa-arrow-right"></icon></p>
+            <!-- <tags>{% for tag in x.tags %}<tag>{{ tag }}</tag>{% endfor %}</tags> -->
+            <div class="fade-bg" style="background-image: url({{ x.image  }});"></div>
+          </a>
+      {% endfor %}
+    </grid>
+  </container>
+</section>
+
+<section id="contact">
+  <container>
+    <row>
+      <column>
+        <h2>Does this sound awesome to you?</h2>
+        <p>I'm looking for a job. Let's get in touch.</p>
+      </column>
+      <column></column>
+      <column></column>
+    </row>
+  </container>
+</section>

@@ -1,0 +1,36 @@
+<footer class="site-footer">
+
+  <container>
+    <a href="#top" class="button back-to-top float-right"><icon class="fas fa-space-shuttle" data-fa-transform="rotate--90"></icon> Back to Top!</a>
+    <p class="link-bar no-margin-bottom">
+      <icon class="fab fa-twitter"></icon> <a href="https://twitter.com/{{ site.handle }}" target="_blank" class="link-twitter">@{{ site.handle }}</a>
+      <icon class="fab fa-github"></icon> <a href="https://github.com/{{ site.handle }}" target="_blank" class="link-github">GitHub</a>
+      <icon class="fab fa-dribbble"></icon> <a href="https://dribbble.com/{{ site.handle }}" target="_blank" class="link-dribbble">Dribbble</a>
+      <icon class="fas fa-key"></icon> <a href="https://keybase.io/victor" target="_blank" class="link-dribbble">Keybase</a>
+    </p>
+    <p>
+      <small>&copy; {{ site.title }}. All rights reserved. You're awesome.</small>
+    </p>
+  </container>
+
+</footer>
+
+{% if site.dev == true %}
+<script src="{{ site.baseurl }}/scripts/jquery-3.1.1.min.js"></script>
+{% else %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+{% endif %}
+
+<script src="{{ site.baseurl }}/scripts/site.js"></script>
+
+{% if site.dev != true %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-33381009-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google-analytics }}');
+</script>
+{% endif %}

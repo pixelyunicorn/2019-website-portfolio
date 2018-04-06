@@ -1,0 +1,377 @@
+// Simple Reset
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+// Clearfix
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Basics
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: normal;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background:lighten($brand-color, 25%);;
+  color: white;
+  text-shadow: none;
+  opacity: 1;
+}
+::-moz-selection {
+  background: lighten($brand-color, 25%);;
+  color: white;
+  text-shadow: none;
+  opacity: 1;
+}
+
+// Set `margin-bottom` to maintain vertical rhythm
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+// Images
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  // margin-bottom: 1rem;
+}
+.block {
+  display: block;
+}
+
+// Figures
+figure > img {
+  display: block;
+}
+figcaption {
+  font-size: $small-font-size;
+}
+
+// Lists
+ul, ol {
+  margin-left: $spacing-unit;
+}
+li {
+  > ul,
+  > ol {
+     margin-bottom: 0;
+  }
+}
+.no-bullets {
+  list-style: none;
+  margin-left: 0;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  // margin: .15rem 0;
+  // font-weight: 700;
+  font-weight: normal;
+  line-height: 1em;
+  color: inherit;
+  a, a:hover {
+    color: inherit;
+  }
+}
+.title {
+  font-size: 64px;
+  @include media-query($on-phone) {
+    font-size: 56px;
+  }
+}
+.logo, .site-title {
+  font-family: $title-font-family;
+  font-weight: normal;
+}
+h1 {
+  font-family: $title-font-family;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 1.5em;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1rem;
+}
+
+// Links
+a {
+  display: inline-block;
+  color: $brand-color;
+  text-decoration: none;
+  &:visited {
+    // color: darken($brand-color, 15%);
+  }
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+// Paragraph
+.lead, p.lead {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  // font-family: $heading-font-family;
+}
+
+// Blockquotes
+blockquote {
+  // border-left: .25rem solid #e8e8e8;
+  border-radius: 8px;
+  padding: 1.25rem;
+  font-size: 1.25em;
+  font-style: italic;
+  > :last-child {
+    margin-bottom: 0;
+  }
+  > blockquote {
+    margin: -1.25rem!important;
+    background: whiteSmoke;
+  }
+  p {
+    max-width: 100%!important;
+  }
+}
+
+// Code formatting
+pre,
+code {
+  font-size: 1rem;
+  border: 1px solid $gray-light;
+  border-radius: 3px;
+  background-color: #eef;
+  color: $black;
+}
+code {
+  padding: 1px 5px;
+}
+pre {
+  padding: 8px 12px;
+  overflow-x: scroll;
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+// Header
+header {
+  p {
+    max-width: 100%;
+  }
+}
+
+// Sections
+section {
+  *padding: 100px 0;
+  align-itrems: center;
+  // background: white;
+}
+
+// Etc
+header, section {
+  // min-height: 80vh;
+  padding: 8vh 10vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  // -webkit-box-align: center;
+  // -webkit-align-itrems: center;
+  // -ms-flex-align: center;
+  // align-itrems: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  @include media-query($on-netbook) {
+    padding: 8vh 2vw;
+  }
+}
+
+.markdown-content {
+  p {
+    max-width: 800px;
+  }
+  p:not(.lead), li {
+    font-size: 1.25rem;
+  }
+  h1:first-of-type {
+    margin-top: 0;
+  }
+  h1 {
+    margin-top: 16vh;
+  }
+}
+
+// Floats
+.float-left { float: left; }
+.margin-center { margin: auto; }
+.float-right { float: right; }
+
+// Text alignment
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+// Padding overrides
+.no-padding { padding: 0!important; }
+.no-padding-top { padding-top: 0!important; }
+.no-padding-bottom { padding-bottom: 0!important; }
+
+// Margin overrides
+.no-margin-bottom { margin-bottom: 0!important; }
+.extra-padding-bottom { margin-bottom: 2rem!important; }
+
+// Buttons
+.button {
+  background: $brand-color;
+  color: white!important;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  -webkit-user-select: none;
+  margin-bottom: $base-font-size;
+  border: none;
+  outline: none;
+  text-shadow: none;
+  &-large {
+    font-size: $base-font-size * 1.25;
+    @include media-query($on-phone) {
+      font-size: $base-font-size;
+    }
+  }
+  &:hover, &:focus, &:active {
+    background: darken($brand-color, 10%);
+    text-decoration: none;
+  }
+  &:active {
+    box-shadow: inset 0 0 20px rgba(0,0,0,.5);
+  }
+  &:disabled, &-disabled {
+    opacity: .5;
+    pointer-events: none;
+  }
+}
+
+// Icons
+icon {
+  display: inline-block;
+}
+
+// Transitions and Animations
+.transition {
+  transition: 200ms all ease;
+}
+.transition-faster {
+  transition: 120ms all ease;
+}
+.transition-bounce {
+  transition: 300ms all cubic-bezier(0.68, -0.55, 0.265, 1.55)
+}
+
+// Mobile visibility
+.visible-phone, .hidden-desktop {
+  display: none;
+  visibility: hidden;
+}
+@include media-query($on-tablet) {
+  .visible-phone, .hidden-desktop {
+    display: inherit;
+    visibility: visible;
+  }
+  .visible-desktop, .hidden-phone {
+    display: none!important;
+  }
+}
+
+// Small screen base
+@include media-query($on-tablet) {
+  h1 {
+    font-size: $small-font-size*2.75;
+  }
+  h2 {
+    font-size: $small-font-size*2.35;
+  }
+}
+
+// Mobile base
+@include media-query($on-phone) {
+  body {
+    font-size: $small-font-size;
+  }
+  h1, h2, h3, h4, h5 {
+    text-align: center;
+  }
+  h1 {
+    font-size: $small-font-size*2.35;
+  }
+  h2 {
+    font-size: $small-font-size*2.15;
+  }
+  h3 {
+    font-size: $small-font-size*1.5;
+  }
+  .lead, p.lead {
+    font-size: $small-font-size*1.25;
+  }
+}

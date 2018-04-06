@@ -1,0 +1,32 @@
+<section id="summary">
+	<container>
+		<row>
+			<column width="15" data-empty></column>
+			{% if page.deliverables %}
+			<column>
+				<h4>Deliverables</h4>
+				{% for x in page.deliverables %}
+				{{ x }} <br>
+				{% endfor %}
+			</column>
+			{% endif %}
+			{% if page.technologies %}
+			<column>
+				<h4>Technologies</h4>
+				{% for x in page.technologies %}
+				{{ x }} <br>
+				{% endfor %}
+			</column>
+			{% endif %}
+			{% if page.contributors %}
+			<column>
+				<h4>Contributors</h4>
+				{% for x in page.contributors %}
+				{{ x }} <br>
+				{% endfor %}
+			</column>
+			{% endif %}
+			<column width="15" data-empty></column>
+		</row>
+	</container>
+</section>
