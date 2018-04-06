@@ -17,8 +17,13 @@ accent: "#D08184"
 accent-light: "#FFDEE2"
 pattern: hero-patterns/circuit-board-05.svg
 
-photos: true
+photos:
+  - [ work/codeday/voculus.svg, caption ]
+  - [ work/codeday/vtrophy.svg, caption ]
+  - [ work/codeday/vphone.svg, caption ]
 ---
+
+> > NOTE: This page is a work in progress.
 
 # A Small Start
 

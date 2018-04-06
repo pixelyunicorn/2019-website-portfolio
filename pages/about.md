@@ -7,6 +7,7 @@ lead: <b>Heya</b> I go by Vi / Victor / Melody (call me either one) and I use th
 
 header-text: white
 accent: rebeccapurple
+accent-light: #f7f1ff
 
 pattern: hero-patterns/tic-tac-toe-05.svg
 ---
