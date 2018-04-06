@@ -11,17 +11,21 @@
 				<div class="visit-site">Visit Site!<i class="fas fa-hand-point-right"></i></div>
 				<div class="url"><icon class="fas fa-globe"></icon>{{ page.url-display }}</div>
 			</div>
-			<img src="/media/{{ page.screenshots-desktop }}" alt="&quot;{{ page.title }} desktop site&quot;"/>
+			<img src="{{ site.baseurl }}/media/{{ page.screenshots-desktop }}" alt="&quot;{{ page.title }} desktop site&quot;"/>
 		</div>
 		<div class="device-mobile">
-			<img src="/media/{{ page.screenshots-mobile }}" alt="&quot;{{ page.title }}mobile site&quot;"/>
+			<img src="{{ site.baseurl }}/media/{{ page.screenshots-mobile }}" alt="&quot;{{ page.title }}mobile site&quot;"/>
 		</div>
 	</a></container>
 	{% endif %}
 	{% if page.photos %}
 	<br>
 	<container id="photos">
-
+		<grid column-count="3" tablet-column-count="2" phone-column-count="2">
+			{% for img in page.photos %}
+				<img src="{{ site.baseurl }}/media/{{ img[0] }}" alt="{{ img[1] }}"/>
+			{% endfor %}
+		</grid>
 	</container>
 	{% endif %}
 </section>

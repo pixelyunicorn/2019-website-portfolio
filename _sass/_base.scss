@@ -37,14 +37,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 ::selection {
-  background:lighten($brand-color, 25%);;
-  color: white;
+  background: lighten($brand-color, 25%);
+  color: black;
   text-shadow: none;
   opacity: 1;
 }
 ::-moz-selection {
-  background: lighten($brand-color, 25%);;
-  color: white;
+  background: lighten($brand-color, 25%);
+  color: black;
   text-shadow: none;
   opacity: 1;
 }

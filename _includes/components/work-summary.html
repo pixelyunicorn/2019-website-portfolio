@@ -30,3 +30,42 @@
 		</row>
 	</container>
 </section>
+
+{% if page.previous %}
+  {% assign prev = page.previous %}
+{% else %}
+	{% assign lastPostIndex = site.work | size | minus: 1 %}
+	{% assign prev = site.work[lastPostIndex] %}
+{% endif %}
+
+{% if page.next %}
+	{% assign next = page.next %}
+{% else %}
+	  {% assign next = site.work[0] %}
+{% endif %}
+
+
+<section id="more">
+  <!-- <a class="text-center back-home" href="/">
+	<div> More projects from my portfolio: </div>
+  </a> -->
+  <row>
+	<a href="{{ prev.permalink }}" class="brick text-left proj proj-{{ prev.class }}" style="background-color: {{ prev.accent-light }}; background-image:url({{ site.baseurl }}/media/{{ prev.pattern }}); color: black" width="50">
+	  <container>
+		<!-- <span class="context" style="background: {{ post.accent }}"> ← Previous Project </span> -->
+		<h2> <span class="hightlight">{{ prev.title }}</span> </h2>
+		<p class=""> {{ prev.description }} </p>
+		<p class="link">Previous Project <icon class="fas fa-arrow-right"></icon></p>
+	  </container>
+	</a>
+
+	<a href="{{ next.permalink }}" class="brick text-left proj proj-{{ next.class }}" style="background-color: {{ next.accent-light }}; background-image:url({{ site.baseurl }}/media/{{ next.pattern }}); color: black" width="50">
+	  <container>
+		<!-- <span class="context" style="background: {{ post.accent }}"> Next Project → </span> -->
+		<h2> <span class="hightlight">{{ next.title }}</span> </h2>
+		<p class=""> {{ next.description }} </p>
+		<p class="link">Next Project <icon class="fas fa-arrow-right"></icon></p>
+	  </container>
+	</a>
+  </row>
+</section>

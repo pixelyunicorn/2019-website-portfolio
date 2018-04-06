@@ -17,9 +17,10 @@
   <meta name="twitter:site" content="@{{ site.handle }}"/>
 
   <style type="text/css" media="screen">
-    {% if page.header-text %}header, #navigation { color: {{ page.header-text }}; }{% endif %}
+    {% if page.header-text %}header, #navigation, .accent-bg { color: {{ page.header-text }}; }{% endif %}
     {% if page.accent %}header, .accent-bg, #devices .device-mobile:after { background-color: {{ page.accent }}; } a, .accent-text { color: {{ page.accent }}; } .device-desktop, .border-accent { border-color: {{ page.accent }}; }{% endif %}
-    {% if page.accent-light %}#devices .device-desktop .browser-toolbar .url, blockquote > blockquote, .accent-light-bg { background: {{ page.accent-light }}; }{% endif %}
+    {% if page.accent-light %}#devices .device-desktop .browser-toolbar .url, blockquote > blockquote, .accent-light-bg { background: {{ page.accent-light }}; }
+    ::selection { background: {{ page.accent-light }}; } ::-moz-selection { background: {{ page.accent-light }}; }{% endif %}
     {% if page.pattern %}header, .pattern-bg { background-image:  url({{ site.baseurl }}/media/{{ page.pattern }}); background-repeat: repeat; background-size: initial; } {% endif %}
   </style>
 

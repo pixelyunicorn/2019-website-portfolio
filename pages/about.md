@@ -13,7 +13,7 @@ pattern: hero-patterns/tic-tac-toe-05.svg
 
 # What I Do
 
-I specialize in art and design! And also development! Backstory about being a magical girl wanting to bring creativity to the world goes here.
+I specialize in art and design! And also development! Backstory about wanting to bring creativity to the world goes here.
 
 # Why
 
