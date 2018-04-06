@@ -11,6 +11,8 @@ accent: rebeccapurple
 pattern: hero-patterns/tic-tac-toe-05.svg
 ---
 
+> > NOTE: This page is a work in progress.
+
 # What I Do
 
 I specialize in art and design! And also development! Backstory about wanting to bring creativity to the world goes here.

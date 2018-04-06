@@ -1,3 +1,5 @@
+> > NOTE: This page is a work in progress and shoud not be live in production.
+
 # High School Hackers
 
 I founded a worldwide community of high schoolers passionate about coding

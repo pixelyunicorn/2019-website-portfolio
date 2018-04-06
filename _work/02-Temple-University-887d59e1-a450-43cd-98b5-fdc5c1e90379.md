@@ -24,15 +24,17 @@ screenshots-desktop: screenshots/temple-homepage-d.png
 screenshots-mobile: screenshots/temple-homepage-m.png
 ---
 
+> > NOTE: This page is a work in progress.
+
 # A System of Legacy Systems
 
 When I started on this project, there was a team of 5 copy writers and developers tasked with maintaing and updating content on all 60+ websites. Trying to keep up with different versions of Drupal, WordPress, SharePoint, DreamWeaver, DIY PHP, plain HTML, and more easily becomes a pain — not to mention the security nightmares and the difficulties of training people to use 50+ different content management systems.
 
-(Window pop ups)
+> > (images of window pop ups go here)
 
 Taking into account problems of the existing system, we set out to build a new system of sites that was secure, easy to maintain, and consistent.
 
-(Screenshot)
+> > (product screenshots go here)
 
 # Less is More
 
@@ -42,11 +44,11 @@ Each of these sites can contain 100s of pages, many of which contain outdated, h
 
 We identified 8 areas of content that most programs had in common and used it as a starting point for pages: Homepage, Undergraduate Studies, Graduate Studies, Study Abroad, Research, Faculty Lists, and Resources/Next Stops. Information such as News, Events, and Media Mentions are more can be found in an external database that is regularly maintained and listed on the homepage. This vastly reduced the average number of pages on each site, reduces information compexity for visitors, and makes it significantly easier for the copy writers to keep the site up-to-date.
 
-(graphic of 25-300 pages → 5 pages)
+> > (graphic of 25-300 pages → 5 pages)
 
 Relevant content about the University can be found in the footer:
 
-(Footer screenshot)
+> > (footer screenshot)
 
 Additionally, we limited the customization options available to each site. The use of a limited set of editing tools and customization options allows for copy writers to very easily edit the site, but not go too overboard when it come to placing content.
 
@@ -62,7 +64,7 @@ Thanks to the growing popularity of Jekyll, web copy writers have a choice betwe
 
 Each site has its content stored in GitHub in markdown files. The editorial workflow is as easy as creating a GitHub Issue or Pull Request (edit request), which allows teams to work on proposed changes before they go live.
 
-(Pull request image)
+> > (Pull request image)
 
 # Open Source
 
