@@ -6,10 +6,10 @@
       <icon class="fab fa-twitter"></icon> <a href="https://twitter.com/{{ site.handle }}" target="_blank" class="link-twitter">@{{ site.handle }}</a>
       <icon class="fab fa-github"></icon> <a href="https://github.com/{{ site.handle }}" target="_blank" class="link-github">GitHub</a>
       <icon class="fab fa-dribbble"></icon> <a href="https://dribbble.com/{{ site.handle }}" target="_blank" class="link-dribbble">Dribbble</a>
-      <icon class="fas fa-key"></icon> <a href="https://keybase.io/victor" target="_blank" class="link-dribbble">Keybase</a>
+      <icon class="fas fa-key"></icon> <a href="https://keybase.io/victor" target="_blank" class="link-deviantart">Keybase</a>
     </p>
     <p>
-      <small>&copy; {{ site.title }}. All rights reserved. You're awesome.</small>
+      <small>&copy; {{ site.title }}. All rights reserved. <a href="https://github.com/pixelyunicorn/victor.horse" target="_blank">This site is Open Source on GitHub!</a></small>
     </p>
   </container>
 
@@ -25,12 +25,16 @@
 
 {% if site.dev != true %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-33381009-6"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google-analytics }}"></script>
 <script>
+if (!(navigator.doNotTrack == "1" || window.doNotTrack == "1")) {
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', '{{ site.google-analytics }}');
+
+}
 </script>
 {% endif %}

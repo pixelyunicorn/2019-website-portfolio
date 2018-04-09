@@ -10,9 +10,9 @@ description: Easy-to-navigate content structure for a major public university
 lead: <strong>Temple University’s College of Liberal Arts</strong> needed a way to quickly unify the content and design for their overall web presence. I created a simple development and editorial workflow as allowed a small team to launch 40 new websites in a year.
 
 tags: [ design, dev, education, materialize, website, 2017 ]
-deliverables: [ backend, frontend, cms ]
-technologies: [ Jekyll, Netlify, Sass, PHP, Ngninx ]
-contributors: [ "imdrunkontea (art)" ]
+deliverables: [ Backend, Frontend, CMS ]
+technologies: [ Jekyll, Netlify, Sass, PHP, Ngninx, Travis CI ]
+contributors: [ Temple University, Chris Hill, Camille Elliott ]
 
 accent: "#E43043"
 accent-light: "#FFDEE2"
@@ -48,7 +48,7 @@ We identified 8 areas of content that most programs had in common and used it as
 
 Relevant content about the University can be found in the footer:
 
-> > (footer screenshot)
+> ![Webpage footer]({{ site.baseurl }}/media/work/temple/footer.png)
 
 Additionally, we limited the customization options available to each site. The use of a limited set of editing tools and customization options allows for copy writers to very easily edit the site, but not go too overboard when it come to placing content.
 
@@ -56,7 +56,7 @@ The simplicity of the content structure has allowed a small team to for over 40 
 
 # Mantaining Sanity aka “The Stack”
 
-> > (Warning: technical jargon ahead!)
+:warning: _Warning: technical jargon ahead!_
 
 I architected a backend solution that is transparent, extra secure, and low-cost to host/maintain. The sites consist of static content generated using Jekyll, and deployed to Amazon Web Services S3 buckets. A central Jekyll theme applied to each site ensures that all sites are consistent in appearence.
 
@@ -64,8 +64,8 @@ Thanks to the growing popularity of Jekyll, web copy writers have a choice betwe
 
 Each site has its content stored in GitHub in markdown files. The editorial workflow is as easy as creating a GitHub Issue or Pull Request (edit request), which allows teams to work on proposed changes before they go live.
 
-> > (Pull request image)
+> ![Image showing proposed content changes in a GitHub pull request]({{ site.baseurl }}/media/work/temple/pr.png)
 
 # Open Source
 
-The best part of this project is that everything is open source! In case you skimmed through the whole thing and missed it, the theme and individual sites are open source at (icon) [GitHub.com/TULiberalArts](https://github.com/TULiberalArts). If you find a bug or want to improve a site, pull requests are always open!
+The best part of this project is that everything is open source! In case you skimmed through the whole thing and missed it, the theme and individual sites are open source at :octocat: [GitHub.com/TULiberalArts](https://github.com/TULiberalArts). If you find a bug or want to improve a site, pull requests are always open!

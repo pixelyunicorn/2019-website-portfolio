@@ -10,9 +10,9 @@ description: A modern status page for a century-old public transit system
 lead: With 306.9 million annual trips, the <strong>Southeastern Pennsylvania Transportation Authority (SEPTA)</strong> has a heavily-utilized System Status page that displays critical information for riders, such as real time vehicle locations, detours, delays, and suspensions. They tapped into the experts from the <strong>PennApps Fellows</strong> program to redesign that page for the mobile era.
 
 tags: [ design, dev, react, transit, website, 2016 ]
-deliverables: [ project management, backend, frontend, cms ]
-technologies: [ Jekyll, Netlify, Sass, PHP, Ngninx ]
-contributors: [ "imdrunkontea (art)" ]
+deliverables: [ Project Management, Frontend ]
+technologies: [ React ]
+contributors: [ "PennApps Fellows (developers)" ]
 
 accent: "#2B5D94"
 accent-light: "#CCEBFF"
@@ -29,6 +29,7 @@ screenshots-mobile: screenshots/septa-routes-m.png
 We built a single page application that updates dynamically with content provided by SEPTA. The page familiar to existing users but made more straightforward to navigate, a cleaner layout that makes icons easier to see, and icons.
 
 <blockquote class="accent-light-bg text-center">
+	<strong>Main Page</strong>
 	<row>
 		<column class="no-margin-bottom"><i>Before</i><img src="{{ site.baseurl }}/media/work/septa/home-before.png" alt="Before my rewrite"></column>
 		<column class="no-margin-bottom"><i>After</i><img src="{{ site.baseurl }}/media/work/septa/home-after.png" alt="After my rewrite"></column>
@@ -36,6 +37,7 @@ We built a single page application that updates dynamically with content provide
 </blockquote>
 
 <blockquote class="accent-light-bg text-center">
+	<strong>Route Display</strong>
 	<row>
 		<column class="no-margin-bottom"><i>Before: Modal Accordion</i><img src="{{ site.baseurl }}/media/work/septa/route-before.png" alt="Before my rewrite"></column>
 		<column class="no-margin-bottom"><i>After: Single Page</i><img src="{{ site.baseurl }}/media/work/septa/route-after.png" alt="After my rewrite"></column>

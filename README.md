@@ -1,47 +1,20 @@
-# Cutie
+# [victor.horse](http://victor.horse)
 
-Built with Jekyll (for now) and hosted on GitHub Pages (for now).
+Built with Jekyll and hosted on GitHub Pages. Created for 2018's #May1Reboot event to showcase my most recent work.
 
 ## Content Structure
 
 | Directory |  |
 | --- | --- |
-| ````_data/```` | Datafiles for guests and vendors. |
-| ````_drafts/```` | Unpublished blog posts. |
-| ````_posts/```` | Blog posts. |
-| ````pages/```` | Actual site content. |
+| ````_work/```` | Portfolio projects. |
+| ````pages/```` | Site content. |
 | ````media/```` | Images, pdfs, and other misc static content. |
-
-### Guests
-
-Just add a bullet to the corresponding .yaml file and the site will automatically update.
-
-````yaml
-- # Basic Info
-  name: "Fluffle Puff"
-  aka: "Pink Fluffly Unicorn"
-  type: community # Community or Vip
-  # Usernames
-  twitter: "Fluffle_Puff"
-  deviantart: "flufflepuff"
-  tumblr: "askflufflepuff"
-  # Links
-  youtube: "https://www.youtube.com/user/FluffyMixer"
-  website: "http://askflufflepuff.com"
-  # Biography
-  bio: "Basement dweller ♥ Food eater Internet user ♥ Part-time bear."
-  # Images
-  avatar: "/media/guests/flufflepuff-avatar.png" # Absolute path to avatar
-  cover: "" # may be used in the future
-  # Color
-  color: "" # may be used in the future
-````
 
 ### Blog Posts
 
 **Blog posts can be easily edited and managed online via http://prose.io/#user/repo.**
 
-Put published posts in ````_posts```` and unpublished posts in ````_drafts````.
+Put published posts in ````_work```` and unpublished posts in ````_drafts````.
 
 The first part of the file starts & ends with three dashes. This is your yaml configuration.
 
@@ -49,11 +22,35 @@ Then comes the markdown. Cheatsheet here: https://github.com/adam-p/markdown-her
 
 ````markdown
 ---
-layout: post #
-title:  "Website, Volunteers, Tickets and More" # Post title
-date:   2016-02-27 08:00:00 # Time in EST
-categories: press # blog or press, affects your path if permalink is not set
-permalink: /blog/more-updates # Optional path to the post
+title: Hack Club
+permalink: /hackclub
+
+url: https://wayback.archive.org/web/20171101000000*/hackclub.com
+url-display: HackClub.com (Archived)
+
+tagline: Hack Together!
+description: Landing page empowering students to start coding clubs
+lead: A nonprofit founded by Forbes 30 Under 30’s Zach Latta, <strong>Hack Club</strong> brings student-led coding clubs to high schools across the world. I worked with Hack Club to create a new homepage and design system that demonstrates how coding is for everyone.
+
+tags: [ design, dev, education, foundation, website, 2016 ]
+deliverables: [ Frontend, Design, Writing ]
+technologies: [ Rails, Foundation, Sass, Sketch ]
+
+accent: "#E43143"
+accent-light: "#FFDEE2"
+header-text: white
+pattern: patterns/hackclub-10.svg
+
+# Optional webpage screenshot display
+screenshots: true
+screenshots-desktop: screenshots/hackclub-homepage-d.png
+screenshots-mobile: screenshots/hackclub-homepage-m.png
+
+# Optional photo display
+photos:
+  - [ work/codeday/voculus.svg, caption ]
+  - [ work/codeday/vtrophy.svg, caption ]
+  - [ work/codeday/vphone.svg, caption ]
 ---
 
 You can start typing content here. <b>HTML is supported</b> and so is **markdown syntax.**
