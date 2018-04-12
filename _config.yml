@@ -1,6 +1,6 @@
 # Site settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://victor.moe" # the base hostname & protocol for your site
+baseweb: "" # the subpath of your site, e.g. /blog
+web: "http://victor.moe" # the base hostname & protocol for your site
 collections:
   work:
     output: true

@@ -2,8 +2,8 @@
 title: CodeDay Canada
 permalink: /codeday/canada
 
-url: https://codeday.org/toronto
-url-display: CodeDay.org/Toronto
+web: https://codeday.org/toronto
+web-display: CodeDay.org/Toronto
 
 tagline: A 24 hour event that gets students excited about coding (except it's in Canada!)
 description: I brought a highly successful programme to Canada in CodeDay’s first international expansion, with help from some friends.
@@ -27,9 +27,11 @@ pattern: hero-patterns/circuit-board-05.svg
 
 All events have to start somewhere, and with the first event in Feburary 2018 we partnered with SPS Commerce to host our first event in Brampton. Despite the low attendance, our attendees had a lot of fun and learned a lot from our first CodeDay in Toronto. It turns out that teaching students in Canada is not that different from America!
 
-> ![A mentor is helping a studnet learn to code.]({{site.baseurl}}/media/work/codeday/to-w2018-photo1.jpg)
-> ![Students are gathered at a table busy coding.]({{site.baseurl}}/media/work/codeday/to-w2018-photo2.jpg)
-> ![Students are gathered at a table competiting against other CodeDay events in a capture the flag competition.]({{site.baseurl}}/media/work/codeday/to-w2018-photo3.jpg)
+![A mentor is helping a studnet learn to code.]({{site.baseurl}}/media/work/codeday/to-w2018-photo1.jpg)
+
+![Students are gathered at a table busy coding.]({{site.baseurl}}/media/work/codeday/to-w2018-photo2.jpg)
+
+![Students are gathered at a table competiting against other CodeDay events in a capture the flag competition.]({{site.baseurl}}/media/work/codeday/to-w2018-photo3.jpg)
 
 You can find a lengthy writeup and more photos of the event over at [https://showcase.srnd.org/winter-2018/toronto/wrapup](https://showcase.srnd.org/winter-2018/toronto/wrapup).
 

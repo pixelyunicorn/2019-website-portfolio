@@ -2,8 +2,8 @@
 title: Temple University
 permalink: /temple
 
-url: https://develop.cla.temple.edu/global-studies
-url-display: CLA.Temple.edu
+web: https://develop.cla.temple.edu/global-studies
+web-display: CLA.Temple.edu
 
 tagline: Solving XKCD 773!
 description: Easy-to-navigate content structure for a major public university

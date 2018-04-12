@@ -2,8 +2,8 @@
 title: SEPTA
 permalink: /septa
 
-url: http://bolty-scalp.victor.moe/realtime/status/system-status.html
-url-display: SEPTA.org (preview)
+web: http://bolty-scalp.victor.moe/realtime/status/system-status.html
+web-display: SEPTA.org (preview)
 
 tagline: Track Yo' Vehicle!
 description: A modern status page for a century-old public transit system

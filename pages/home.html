@@ -12,7 +12,7 @@ pattern: hero-patterns/tic-tac-toe-05.svg
     <row>
       <column width="5"></column>
       <column width="30">
-        <img src="/media/text/ms-title.svg" alt="Melody Starling" />
+        <img src="/media/text/ms-title.svg" alt="Melody Starling" >
       </column>
       <column width="60">
         <div class="blurble">
@@ -37,7 +37,7 @@ pattern: hero-patterns/tic-tac-toe-05.svg
   </container>
 </header>
 
-<!-- <hr class="wave" /> -->
+<!-- <hr class="wave" > -->
 
 <section id="portfolio">
   <container>
@@ -47,17 +47,17 @@ pattern: hero-patterns/tic-tac-toe-05.svg
         <p>I have launched and improved 50+ projects for clients across the world. Here’s a quick taste of what I do:</p>
         <row class="text-center">
           <column>
-            <img src="{{ site.baseurl }}/media/icons/webdev.svg" alt="Icon showing web development">
+            <img src="{{ site.baseurl }}/media/icons/webdev.svg" alt="Icon showing web development" class="hidden-phone">
             Web <br class="hidden-phone">
             Development
           </column>
           <column>
-            <img src="{{ site.baseurl }}/media/icons/design.svg" alt="Icon showing user interface design">
+            <img src="{{ site.baseurl }}/media/icons/design.svg" alt="Icon showing user interface design" class="hidden-phone">
             UX/UI <br class="hidden-phone">
             Design
           </column>
           <column>
-              <img src="{{ site.baseurl }}/media/icons/community.svg" alt="Icon showing user community management">
+              <img src="{{ site.baseurl }}/media/icons/community.svg" alt="Icon showing user community management" class="hidden-phone">
             Community <br class="hidden-phone">
             Management
           </column>
@@ -68,11 +68,11 @@ pattern: hero-patterns/tic-tac-toe-05.svg
       {% assign weighted = site.work | sort: 'weight' %}
       {% for x in site.work %}
       {% assign idx = forloop.index | plus: 0 %}
-          <a href="{{ x.url }}" class="pf-item brick" style="background-color: {{ x.accent-light }}; background-image: url({{ site.baseurl }}/media/{{ x.pattern }}); background-repeat: repeat; background-size: initial;" data-accent="{{ x.accent }}" data-cycle="{% cycle 'odd', 'even' %}">
+          <a href="{{ x.web }}" class="pf-item brick" style="background-color: {{ x.accent-light }}; background-image: url({{ site.baseurl }}/media/{{ x.pattern }}); background-repeat: repeat; background-size: initial;" data-accent="{{ x.accent }}" data-cycle="{% cycle 'odd', 'even' %}">
             <p>Exhibit <index style="color: {{ x.accent-light }}">{{ idx }}</index></p>
             <h3><span class="number" style="background: {{ x.accent }}">#</span> {{ x.title }}</h3>
                 <p>{{ x.description }}</p>
-                <p class="link">{{ x.url-display }} <icon class="fas fa-arrow-right"></icon></p>
+                <p class="link">{{ x.web-display }} <icon class="fas fa-arrow-right"></icon></p>
             <!-- <tags>{% for tag in x.tags %}<tag>{{ tag }}</tag>{% endfor %}</tags> -->
             <div class="fade-bg" style="background-image: url({{ x.image  }});"></div>
           </a>
@@ -89,7 +89,9 @@ pattern: hero-patterns/tic-tac-toe-05.svg
         <p class="no-margin-bottom">I'm looking for a job. Let's get in touch.</p>
         <p>No recruiters, please.</p>
       </column>
-      <column width="66"></column>
+      <column width="66">
+        <div class="hire"></div><div class="at"></div><div class="victor"></div><div class="dot"></div><div class="horse"></div>
+      </column>
     </row>
   </container>
 </section>

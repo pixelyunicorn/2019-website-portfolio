@@ -25,8 +25,8 @@ Then comes the markdown. Cheatsheet here: https://github.com/adam-p/markdown-her
 title: Hack Club
 permalink: /hackclub
 
-url: https://wayback.archive.org/web/20171101000000*/hackclub.com
-url-display: HackClub.com (Archived)
+web: https://wayback.archive.org/web/20171101000000*/hackclub.com
+web-display: HackClub.com (Archived)
 
 tagline: Hack Together!
 description: Landing page empowering students to start coding clubs

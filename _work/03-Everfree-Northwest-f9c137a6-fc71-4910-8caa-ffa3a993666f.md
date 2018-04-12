@@ -2,8 +2,8 @@
 title: Everfree Northwest
 permalink: /efnw
 
-url: https://everfreenw.com/
-url-display: EverfreeNW.com
+web: https://everfreenw.com/
+web-display: EverfreeNW.com
 
 tagline: For Pegasi, By Unicorns!
 description: Creative direction and website for a major fan convention
