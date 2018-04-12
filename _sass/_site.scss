@@ -636,3 +636,44 @@ footer {
     background-position: -100% 0
   }
 }
+
+// Email
+.vine, .chestnut, .walnut, .spruce, .pine {
+  display: inline-block;
+  font-family: $title-font-family;
+  font-size: 4rem;
+  @extend .transition;
+   @include media-query($on-phone) {
+      font-size: 1.5rem;
+  }
+  &:hover {
+    transform: translateX(-2px) translateY(-4px);
+  }
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: purple;
+}
+.vine:before {
+  content: 'hire';
+}
+.chestnut:before {
+  content: '@';
+}
+.walnut:before {
+  content: 'victor';
+}
+.spruce:before {
+  content: '.';
+}
+.pine:before {
+  content: 'horse';
+}
+.chestnut:before, .spruce:before {
+  background-image: url(/media/patterns/dashie-1.png);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.horse:before {
+
+}
