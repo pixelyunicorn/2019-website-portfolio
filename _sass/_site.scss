@@ -601,6 +601,31 @@ footer {
     border-top: 2px dashed;
     padding-top: 1rem;
   }
+  .back-to-top {
+    position: relative;
+    z-index: 50;
+    .flame {
+      display: block;
+      position: absolute;
+      bottom: .35em;
+      left: 1.4em;
+      width: .5em;
+      height: .35em;
+      background: yellow;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      box-shadow: 0 0 2px 2px orange, 0 0 10px red;
+      z-index: 0;
+      opacity: 0;
+      @extend .transition-slower;
+      transform: scale(0.25);
+      transform-origin: top;
+    }
+    &:hover .flame {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 }
 .cancer-notice {
   font-size: .85rem;
@@ -647,7 +672,7 @@ footer {
       font-size: 1.5rem;
   }
   &:hover {
-    transform: translateX(-2px) translateY(-4px);
+    // transform: translateX(-2px) translateY(-4px);
   }
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 2px;

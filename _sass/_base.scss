@@ -325,6 +325,9 @@ icon {
 .transition-faster {
   transition: 120ms all ease;
 }
+.transition-slower {
+  transition: 310ms all ease;
+}
 .transition-bounce {
   transition: 300ms all cubic-bezier(0.68, -0.55, 0.265, 1.55)
 }
