@@ -26,7 +26,7 @@ screenshots-mobile: screenshots/septa-routes-m.png
 
 # Easy to Navigate
 
-We built a single page application that updates dynamically with content provided by SEPTA. The page familiar to existing users but made more straightforward to navigate, a cleaner layout that makes icons easier to see, and icons.
+We built a single page application that updates dynamically with content provided by SEPTA. The page is familiar to existing users, with a cleaner layout that makes an extensive list of routes easier to navigate.
 
 <blockquote class="accent-light-bg text-center">
 	<strong>Main Page</strong>
