@@ -24,6 +24,8 @@ screenshots-desktop: screenshots/efnw-homepage-d.png
 screenshots-mobile: screenshots/efnw-homepage-m.png
 ---
 
+> > NOTE: This page is a work in progress.
+
 # An Art Collaboration
 
 It's been a pleasure working with Everfree Northwest design team! Despite the timezone differences, I worked with artists to create art that both compliments content on the site and adaptable for other mediums (like print and television!) The flexibility of web development allows some rather creative adaptations of art - from individually animated layers to uniquely positioned characters. These details plugged into the site layout, which sped up the development process.
