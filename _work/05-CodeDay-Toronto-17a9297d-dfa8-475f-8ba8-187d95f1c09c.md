@@ -27,11 +27,13 @@ pattern: hero-patterns/circuit-board-05.svg
 
 All events have to start somewhere, and with the first event in Feburary 2018 we partnered with SPS Commerce to host our first event in Brampton. Despite the low attendance, our attendees had a lot of fun and learned a lot from our first CodeDay in Toronto. It turns out that teaching students in Canada is not that different from America!
 
-![A mentor is helping a studnet learn to code.]({{site.baseurl}}/media/work/codeday/to-w2018-photo1.jpg)
-
-![Students are gathered at a table busy coding.]({{site.baseurl}}/media/work/codeday/to-w2018-photo2.jpg)
-
-![Students are gathered at a table competiting against other CodeDay events in a capture the flag competition.]({{site.baseurl}}/media/work/codeday/to-w2018-photo3.jpg)
+<blockquote class="text-center">
+	<row>
+		<column class=""><img src="{{ site.baseurl }}/media/work/codeday/to-w2018-photo1.jpg" alt="A mentor is helping a studnet learn to code."></column>
+		<column class=""><img src="{{ site.baseurl }}/media/work/codeday/to-w2018-photo2.jpg" alt="Students are gathered at a table busy coding."></column>
+		<column class=""><img src="{{ site.baseurl }}/media/work/codeday/to-w2018-photo3.jpg" alt="Students are gathered at a table competiting against other CodeDay events in a capture the flag competition."></column>
+	</row>
+</blockquote>
 
 You can find a lengthy writeup and more photos of the event over at [https://showcase.srnd.org/winter-2018/toronto/wrapup](https://showcase.srnd.org/winter-2018/toronto/wrapup).
 

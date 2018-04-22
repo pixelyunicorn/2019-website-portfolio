@@ -7,7 +7,7 @@ web-display: EverfreeNW.com
 
 tagline: For Pegasi, By Unicorns!
 description: Creative direction and website for a major fan convention
-lead: Seattle's My Little Pony convention, <strong>Everfree Northwest</strong>, reached out to partner with me to develop and launch a site for their 2018 convention. This family-friendly event brings together fans of the <em>My Little Pony</em> franchise from around the world to share their passion for ponies, featuring show VIPs, hundreds of events, concerts, an artist alley, and more.
+lead: Seattle's My Little Pony convention, <strong>Everfree Northwest</strong>, reached out to me to develop and launch a site for their 2018 convention. This family-friendly event brings together fans of the <em>My Little Pony</em> franchise from around the world to share their passion for ponies, featuring show VIPs, hundreds of events, concerts, an artist alley, and more.
 
 tags: [ design, dev, cutie, unicorns, website, 2018 ]
 deliverables: [ Frontend, Backend, CMS, Design ]
@@ -39,11 +39,13 @@ It's been a pleasure working with Everfree Northwest design team! Despite the ti
 	</grid>
 </blockquote>
 
+We let visuals tell the tale, with accessible alt-text available for people unable to see or interpret visuals.
+
 # Easy to Navigate
 
 Large event websites tend to continuously evolve with tons of content being added as the event draws closer. Trying to keep up with guest announcements, policy changes, application forms, ticket sales, and more can easily become overwhelming without a system to manage it.
 
-The overall goal of this website is to make it easy to navigate by simplifying content. Unlike most event websites, we simplified our content to 6 simple categories and into as few pages as possible. We let visuals tell the tale, with accessible alt-text available for people unable to see or interpret visuals.
+The overall goal of this website is to make it easy to navigate by simplifying content. Unlike most event websites, we simplified our content to 6 simple categories and into as few pages as possible.
 
 > ![Navigation bar]({{ site.baseurl }}/media/work/efnw/nav.png)
 
