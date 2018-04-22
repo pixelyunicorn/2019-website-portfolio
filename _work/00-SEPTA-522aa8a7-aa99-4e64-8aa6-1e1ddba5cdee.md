@@ -7,7 +7,7 @@ web-display: SEPTA.org (preview)
 
 tagline: Track Yo' Vehicle!
 description: A modern status page for a century-old public transit system
-lead: With 306.9 million annual trips, the <strong>Southeastern Pennsylvania Transportation Authority (SEPTA)</strong> has a heavily-utilized System Status page that displays critical information for riders, such as real time vehicle locations, detours, delays, and suspensions. They tapped into the experts from the <strong>PennApps Fellows</strong> program to redesign that page for the mobile era.
+lead: With 306.9 million annual trips, the <strong>Southeastern Pennsylvania Transportation Authority (SEPTA)</strong> has a heavily-utilized System Status page that displays critical information for riders, such as real time vehicle locations, detours, delays, and suspensions. I worked with the development team at PennApps Fellows to redesign that page for the mobile era.
 
 tags: [ design, dev, react, transit, website, 2016 ]
 deliverables: [ Project Management, Frontend ]
