@@ -74,7 +74,9 @@ pattern: hero-patterns/tic-tac-toe-05.svg
                 <p>{{ x.description }}</p>
                 <p class="link">{{ x.web-display }} <icon class="fas fa-arrow-right"></icon></p>
             <!-- <tags>{% for tag in x.tags %}<tag>{{ tag }}</tag>{% endfor %}</tags> -->
-            <div class="fade-bg" style="background-image: url({{ x.image  }});"></div>
+            <div class="preview">
+              <img src="{{ site.baseurl }}/media/{{ x.preview }}" alt="">
+            </div>
           </a>
       {% endfor %}
     </grid>

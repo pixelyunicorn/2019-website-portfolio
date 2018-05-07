@@ -6,12 +6,13 @@ web: https://codeday.org/toronto
 web-display: CodeDay.org/Toronto
 
 tagline: A 24 hour event that gets students excited about coding (except it's in Canada!)
-description: I brought a highly successful programme to Canada in CodeDay’s first international expansion, with help from some friends.
+description: I brought a highly successful programme to Canada in CodeDay’s first international expansion.
 lead: I brought a highly successful programme to Canada in CodeDay’s first international expansion, with help from some friends.
 
 tags: [ design, dev, education, foundation, website, 2016 ]
 deliverables: [ Event Mangement, A Badass Event (in Canada!) ]
 contributors: [ Emily Su (Ryerson), Darshil Patel (Toronto Youth Network), Minty Fre$h (friend) ]
+preview: work/codeday/preview-canada.png
 
 accent: "#D08184"
 accent-light: "#FFDEE2"

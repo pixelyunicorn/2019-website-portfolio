@@ -6,7 +6,7 @@ web: https://everfreenw.com/
 web-display: EverfreeNW.com
 
 tagline: For Pegasi, By Unicorns!
-description: Creative direction and website for a major fan convention
+description: Creative direction and website for a major fan convention.
 lead: Seattle's My Little Pony convention, <strong>Everfree Northwest</strong>, reached out to me to develop and launch a site for their 2018 convention. This family-friendly event brings together fans of the <em>My Little Pony</em> franchise from around the world to share their passion for ponies, featuring show VIPs, hundreds of events, concerts, an artist alley, and more.
 
 tags: [ design, dev, cutie, unicorns, website, 2018 ]
@@ -18,6 +18,7 @@ accent: "#4EAEB9"
 accent-light: "#CDFFD3"
 header-text: white
 pattern: hero-patterns/random-shapes-05.svg
+preview: work/efnw/preview.png
 
 screenshots: true
 screenshots-desktop: screenshots/efnw-homepage-d.png

@@ -6,7 +6,7 @@ web: http://bolty-scalp.victor.moe/realtime/status/system-status.html
 web-display: SEPTA.org (preview)
 
 tagline: Track Yo' Vehicle!
-description: A modern status page for a century-old public transit system
+description: A modern status page for a century-old public transit system.
 lead: With 306.9 million annual trips, the <strong>Southeastern Pennsylvania Transportation Authority (SEPTA)</strong> has a heavily-utilized System Status page that displays critical information for riders, such as real time vehicle locations, detours, delays, and suspensions. I managed the project alongside the development team at <strong>PennApps Fellows</strong> to redesign and rewrite that page for the mobile era.
 
 tags: [ design, dev, react, transit, website, 2016 ]
@@ -18,6 +18,7 @@ accent: "#2B5D94"
 accent-light: "#CCEBFF"
 header-text: white
 pattern: hero-patterns/happy-intersection-05.svg
+preview: work/septa/preview.svg
 
 screenshots: true
 screenshots-desktop: screenshots/septa-routes-d.png

@@ -6,7 +6,7 @@ web: https://develop.cla.temple.edu/global-studies
 web-display: CLA.Temple.edu
 
 tagline: Solving XKCD 773!
-description: Easy-to-navigate content structure for a major public university
+description: Easy-to-navigate content structure for a major public university.
 lead: <strong>Temple University’s College of Liberal Arts</strong> needed a way to quickly unify the content and design for their overall web presence. I created a simple development and editorial workflow as allowed a small team to launch 40 new websites in a year.
 
 tags: [ design, dev, education, materialize, website, 2017 ]
@@ -18,6 +18,7 @@ accent: "#E43043"
 accent-light: "#FFDEE2"
 header-text: white
 pattern: hero-patterns/temple-05.svg
+preview: work/temple/preview.png
 
 screenshots: true
 screenshots-desktop: screenshots/temple-homepage-d.png
