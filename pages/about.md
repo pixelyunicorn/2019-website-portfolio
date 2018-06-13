@@ -22,7 +22,7 @@ pattern: hero-patterns/tic-tac-toe-05.svg
 
 # What I am Learning
 
-I consider myself to be a lifetime learmer. Here are skills I am working on improving in the near future:
+I consider myself to be a lifetime learner. Here are skills I am working on improving in the near future:
 
 - **Illustration!**  :art: I am learning how to draw, one line at a time, with friends from wonderful communities such as Draw a Box and MLP Drawing School. I eventually want to get to the point where I can sell art and illustration as a skill to others, and to fans around the world.
 - **Psychology!**  :necktie: I want to understand why people do things the way they do, not just in the physical world but also digital world.  That’s why I am studying human computer-interaction in my free time, to better understand the diverse mindset of users.
