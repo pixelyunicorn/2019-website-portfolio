@@ -47,9 +47,6 @@ $brand-color: $primary;
 $text-color: $black;
 $background-color: $white;
 
-// Icon font location
-$icomoon-font-path: "../icons/fonts";
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "cutie/mixins";
 @import "cutie/reset";
