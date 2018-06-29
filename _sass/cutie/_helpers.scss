@@ -101,3 +101,17 @@ $colors: (
     display: none !important;
   }
 }
+
+
+// Misc mixins
+.screen-reader-text {
+  @include screen-reader-text;
+}
+
+.ellipsis {
+  @include ellipsis;
+}
+
+.word-wrap {
+  @include word-wrap;
+}

@@ -47,17 +47,11 @@ $brand-color: $primary;
 $text-color: $black;
 $background-color: $white;
 
-// Using media queries with like this:
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
-
 // Icon font location
 $icomoon-font-path: "../icons/fonts";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "cutie/mixins";
 @import "cutie/reset";
 @import "cutie/base";
 @import "cutie/helpers";
