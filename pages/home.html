@@ -12,7 +12,11 @@ pattern: hero-patterns/tic-tac-toe-05.svg
     <row>
       <column width="5"></column>
       <column width="30">
-        <img src="/media/text/vl-title-text.svg" alt="Victor Starling" >
+        {% if site.melody == true %}
+        <img src="/media/text/ms-title-text.svg" alt="Melody Starling">
+        {% else %}
+        <img src="/media/text/vl-title-text.svg" alt="Victor Starling">
+        {% endif %}
       </column>
       <column width="60">
         <div class="blurble">
@@ -92,7 +96,7 @@ pattern: hero-patterns/tic-tac-toe-05.svg
         <p>No recruiters, please.</p>
       </column>
       <column width="66" class="text-center">
-        <div class="vine"></div><div class="chestnut"></div><div class="walnut"></div><div class="spruce"></div><div class="pine"></div>
+        <div class="vine"></div><div class="chestnut"></div>{% if site.melody == true %}<div class="cheddar"></div>{% else %}<div class="walnut"></div>{% endif %}<div class="spruce"></div>{% if site.melody == true %}<div class="cone"></div>{% else %}<div class="pine"></div>{% endif %}
       </column>
     </row>
   </container>

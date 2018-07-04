@@ -38,3 +38,6 @@ handle: pixelyunicorn
 
 # Offline debug flag
 dev: false
+
+# Flag that does the thing
+melody: false
