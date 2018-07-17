@@ -3,7 +3,7 @@ title: About
 permalink: /about
 layout: page
 
-lead: <b>Heya!</b> I go by Meldoy / Victor (call me either one) and I use they/them pronouns. I've been doing web development seriously for over 8 years and before that I still couldn't put my computer away. I was always doing web development in my free time, and even in class! It was something I was and am very passionate about today, so I decided to make it my career. <br> <br> I sell my services to clients all across the US &amp; Canada. One day I hope to be able to travel and meet new people around the world.
+lead: <b>Heya!</b> I go by Melody / Victor (call me either one) and I use they/them pronouns. I've been doing web development seriously for over 8 years and before that I still couldn't put my computer away. I was always doing web development in my free time, and even in class! It was something I was and am very passionate about today, so I decided to make it my career. <br> <br> I sell my services to clients all across the US &amp; Canada. One day I hope to be able to travel and meet new people around the world.
 
 header-text: white
 accent: rebeccapurple
