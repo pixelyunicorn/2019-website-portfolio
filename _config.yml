@@ -1,6 +1,6 @@
 # Site settings
 baseweb: "" # the subpath of your site, e.g. /blog
-web: "http://victor.moe" # the base hostname & protocol for your site
+web: "" # the base hostname & protocol for your site
 collections:
   work:
     output: true
@@ -29,7 +29,7 @@ google-analytics: "UA-33381009-6"
 typekit: "xmd5huf"
 
 # Commonly used lingo
-title: "Melody ✨"
+title: "Victor ✨"
 location: "Philadelphia, PA, USA"
 email: contact@example.com
 description: > # this means to ignore newlines until the next colon
