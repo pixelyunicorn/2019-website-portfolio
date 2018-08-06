@@ -9,35 +9,10 @@ pattern: hero-patterns/tic-tac-toe-05.svg
 
 <header>
   <container>
-    <row>
-      <column width="5"></column>
-      <column width="30">
-        {% if site.melody == true %}
-        <img src="/media/text/ms-title-text.svg" alt="Melody Starling">
-        {% else %}
-        <img src="/media/text/vl-title-text.svg" alt="Victor Starling">
-        {% endif %}
-      </column>
-      <column width="60">
-        <div class="blurble">
-          Hey there! I'm a digital experience developer and designer from the sunny city of Philadelphia.
-          <beg></beg>
-        </div>
-<!--         <div class="replies">
-          <a class="reply">
-            How are you? 👋
-          </a>
-          <a class="reply">
-            What do you do? 😺
-          </a>
-          <a class="reply">
-            Cool site hon! 👀
-          </a>
-        </div>
- -->
-      </column>
-      <column width="5"></column>
-    </row>
+    <article class="content">
+      <h2>I build interactive digital experiences that people enjoy!</h2>
+      <p class="lead">Here’s a quick taste of what I do:</p>
+    </article>
   </container>
 </header>
 
@@ -46,29 +21,6 @@ pattern: hero-patterns/tic-tac-toe-05.svg
 <section id="portfolio">
   <container>
     <grid column-count="2" phone-column-count="1">
-      <div class="taste">
-        <h3>I build interactive digital experiences that people enjoy.</h3>
-        <p>I have launched and improved 50+ projects for clients across the world. Here’s a quick taste of what I do:</p>
-        <row class="text-center">
-          <column>
-            <img src="{{ site.baseurl }}/media/icons/webdev.svg" alt="Icon showing web development" class="hidden-phone">
-            Web <br class="hidden-phone">
-            Development
-          </column>
-          <column>
-            <img src="{{ site.baseurl }}/media/icons/design.svg" alt="Icon showing user interface design" class="hidden-phone">
-            UX/UI <br class="hidden-phone">
-            Design
-          </column>
-          <column>
-              <img src="{{ site.baseurl }}/media/icons/community.svg" alt="Icon showing user community management" class="hidden-phone">
-            Community <br class="hidden-phone">
-            Management
-          </column>
-        </row>
-        <div class="play-thing hidden-phone"><icon class="fas fa-play"></icon></div>
-      </div>
-
       {% assign weighted = site.work | sort: 'weight' %}
       {% for x in site.work %}
       {% assign idx = forloop.index | plus: 0 %}
@@ -91,11 +43,28 @@ pattern: hero-patterns/tic-tac-toe-05.svg
   <container>
     <row align="middle">
       <column width="33">
-        <h2>Does this sound awesome to you?</h2>
-        <p class="no-margin-bottom">I'm looking for a job. Let's get in touch.</p>
-        <p>No recruiters, please.</p>
+        <h2>What I do:</h2>
+        <row class="text-center">
+          <column>
+            <img src="{{ site.baseurl }}/media/icons/webdev-dark.svg" alt="Icon showing web development" class="hidden-phone"><br>
+            Web <br class="hidden-phone">
+            Development
+          </column>
+          <column>
+            <img src="{{ site.baseurl }}/media/icons/design-dark.svg" alt="Icon showing user interface design" class="hidden-phone"><br>
+            UX/UI <br class="hidden-phone">
+            Design
+          </column>
+          <column>
+              <img src="{{ site.baseurl }}/media/icons/community-dark.svg" alt="Icon showing user community management" class="hidden-phone"><br>
+            Community <br class="hidden-phone">
+            Management
+          </column>
+        </row>
       </column>
       <column width="66" class="text-center">
+        <h2>Let's get in touch!</h2>
+        <p class="no-margin-bottom">I'm looking for work! (No recruiters, please.)</p>
         <div class="vine"></div><div class="chestnut"></div>{% if site.melody == true %}<div class="cheddar"></div>{% else %}<div class="walnut"></div>{% endif %}<div class="spruce"></div>{% if site.melody == true %}<div class="cone"></div>{% else %}<div class="pine"></div>{% endif %}
       </column>
     </row>
