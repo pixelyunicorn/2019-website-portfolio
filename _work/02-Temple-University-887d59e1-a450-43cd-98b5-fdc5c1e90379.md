@@ -25,8 +25,6 @@ screenshots-desktop: screenshots/temple-homepage-d.png
 screenshots-mobile: screenshots/temple-homepage-m.png
 ---
 
-> > NOTE: This page is a work in progress.
-
 # A System of Legacy Systems
 
 When I started on this project, there was a team of 5 copy writers and developers tasked with maintaing and updating content on all 60+ websites. Trying to keep up with different versions of Drupal, WordPress, SharePoint, DreamWeaver, DIY PHP, plain HTML, and more easily becomes a pain — not to mention the security nightmares and the difficulties of training people to use 50+ different content management systems.

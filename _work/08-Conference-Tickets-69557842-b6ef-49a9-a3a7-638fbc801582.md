@@ -25,7 +25,7 @@ screenshots-desktop: work/reg/badges-d.png
 screenshots-mobile: work/reg/badges-m.png
 ---
 
-**I can't say much about this right now since this project is (mostly) under wraps, but here's a sneak peek of what I will write about:**
+> > **I can't say much about this right now since this project is (mostly) under wraps, but here's a sneak peek of what I will write about:**
 
 ## Introduction
 
