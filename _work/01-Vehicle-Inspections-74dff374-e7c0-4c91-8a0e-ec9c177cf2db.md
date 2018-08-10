@@ -16,7 +16,7 @@ technologies: [ React, AWS Lambda, AWS S3 ]
 accent: "#5245c2"
 accent-light: "#f1deff"
 header-text: white
-pattern: hero-patterns/wallpaper-05.svg
+pattern: hero-patterns/cage-05.svg
 preview: work/inspections/preview.png
 
 screenshots: true
