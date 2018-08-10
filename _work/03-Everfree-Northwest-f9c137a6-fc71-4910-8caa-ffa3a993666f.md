@@ -15,7 +15,7 @@ technologies: [ Jekyll, Netlify, Sass, PHP, Ngninx ]
 contributors: [ Taiko (IT), imdrunkontea (art), Talons of Ice and Fire (art), Christa D (art), KellyTheDrawingUnicorn (art) ]
 
 accent: "#4EAEB9"
-accent-light: "#CDFFD3"
+accent-light: "#CCEBFF"
 header-text: white
 pattern: hero-patterns/random-shapes-05.svg
 preview: work/efnw/preview.png
