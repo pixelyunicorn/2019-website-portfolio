@@ -460,7 +460,6 @@ tags {
     width: 30vw;
     max-width: 300px;
     bottom: 0;
-    right: -1em;
     overflow: hidden;
     padding-bottom: 60px;
     background: $black;
@@ -481,6 +480,14 @@ tags {
 
       // border: 2px solid white;
 
+    }
+
+    &-, &-right {
+      right: -1em;
+    }
+
+    &-left {
+      left: -1em;
     }
 
     // @extend .transition;
