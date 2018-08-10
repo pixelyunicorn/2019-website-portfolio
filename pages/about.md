@@ -3,7 +3,7 @@ title: About
 permalink: /about
 layout: page
 
-lead: <b>Heya!</b> I go by Melody (or Victor) and use they/them pronouns. I've been doing web development seriously for over 8 years and before that I still couldn't put my computer away. I was always doing web development in my free time, and even in class! It was something I was and am very passionate about today, so I decided to make it my career. <br> <br> I sell my services to clients all across the US &amp; Canada. One day I hope to be able to travel and meet new people around the world.
+lead: <b>Heya!</b> I go by Melody (or Victor) and use they/them pronouns. I've been doing web development seriously for over 8 years and before that I still couldn't put my computer away. I was always doing web development in my free time, and even in class! It was something I was and still am very passionate about today, so I decided to make it my career. <br> <br> I sell my services to clients all across the US &amp; Canada. One day I hope to be able to travel and meet new people around the world.
 
 header-text: white
 accent: rebeccapurple
@@ -31,16 +31,18 @@ I consider myself to be a lifetime learner. Here are skills I am working on impr
 
 This can be summed up in 4 words:
 
-- **Unicorns!** :unicorn:
-- **Tacos!** :taco:
-- **Space!** :star:
-- **Splatoon!** :star:
+- **Unicorns!** :unicorn: If there's one animal that best describes me, it would be these magical horned ponies. Trust me.
+- **Tacos!** :taco: As a staple of my diet, I make myself a taco (or burrito) at least twice a week. I also started a meetup called [TacoJS](/tacojs)!
+- **Trans(it)!** :rainbow::station: I like trains enough that I'm on the [SEPTA Youth Advisory Council](http://septayac.com/) and frequent [NUMToT](https://facebook.com/groups/732590680233889), what more can I say?
+- **Splatoon 2!** :squid: I love rolling over my fellow celaphods in this super friendly and radically inclusive game. [Come splat with me!](https://stat.ink/@pixely)
 
-# Press
+# Press, Etc
 
 You can find news about me by searching my name on Technical.ly Philly: <br> [https://technical.ly/philly/?s=victor+lourng](https://technical.ly/philly/?s=victor+lourng)
 
 I also somehow made it onto a [Philly Tech 101](https://twitter.com/TechnicallyPHL/lists/philly-tech-101) list! :clap:
+
+I also have this odd habit of redesigning my website from scratch every year (and usually never finshing it!) Here's my [interenet glow up](https://www.urbandictionary.com/define.php?term=glow up) through the years: [2016](http://2016.victor.horse) [2015](http://2015.victor.horse) [2014](http://2014.victor.horse) [2013](http://2013.victor.horse) [2012](http://2012.victor.horse) [2011](http://2011.victor.horse) [2010](http://2010.victor.horse)
 
 # Important Notices
 
