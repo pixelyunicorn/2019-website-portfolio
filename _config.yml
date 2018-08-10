@@ -40,4 +40,4 @@ handle: pixelyunicorn
 dev: false
 
 # Flag that does the thing
-melody: true
+melody: false
