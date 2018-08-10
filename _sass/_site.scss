@@ -124,6 +124,11 @@ header#index {
   .pf-item {
     color: black;
     margin-bottom: 0;
+    &.pf-mini {
+      height: auto;
+      min-height: auto;
+      padding-bottom: 0;
+    }
 
     .number {
       position: absolute;
@@ -233,7 +238,7 @@ tags {
     text-align: center;
     border-radius: 1rem;
     font-weight: bold;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
   }
 
   strong {
@@ -260,6 +265,7 @@ tags {
     text-transform: uppercase;
     opacity: .5;
     position: relative;
+    margin-top: 2em;
 
     @extend .transition;
 

@@ -6,8 +6,8 @@ web: #
 web-display: (Coming Soon)
 
 tagline: Jawn, Etc.
-description: An all-in-one conference checkout process that combines tickets, hotels, swag, and more.
-lead: I worked with a conference to architect and build a streamlined single event ticketing system that incorporates a lot of elements that would otherwise be found in many different systems. In a single transaction, you can purchase event memberships, hotels, transit tickets, physical goods, and more!
+description: A system combines event tickets, hotels, swag, and more.
+lead: I worked with a conference to architect and build an all-in-one event ticketing system that incorporates a lot of elements that would otherwise be found in many different systems. In a single transaction, you can purchase event memberships, hotels, transit tickets, physical goods, and more!
 
 tags: [ design, dev, serverless, website, 2018 ]
 deliverables: [ Software Architecture, Frontend, Backend, Design ]
