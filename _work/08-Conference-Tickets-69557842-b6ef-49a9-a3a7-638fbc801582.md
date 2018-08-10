@@ -3,7 +3,7 @@ title: Conference Tickets
 permalink: /reg
 
 web: #
-web-display: (Coming Soon)
+web-display: (coming soon)
 
 tagline: Jawn, Etc.
 description: A system combines event tickets, hotels, swag, and more.
