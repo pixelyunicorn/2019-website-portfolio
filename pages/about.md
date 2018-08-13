@@ -36,13 +36,9 @@ This can be summed up in 4 words:
 - **Trans(it)!** :rainbow::station: I like trains enough that I'm on the [SEPTA Youth Advisory Council](http://septayac.com/) and frequent [NUMToT](https://facebook.com/groups/732590680233889), what more can I say?
 - **Splatoon 2!** :squid: I love rolling over my fellow celaphods in this super friendly and radically inclusive game. [Come splat with me!](https://stat.ink/@pixely)
 
-# Press, Etc
-
-You can find news about me by searching my name on Technical.ly Philly: <br> [https://technical.ly/philly/?s=victor+lourng](https://technical.ly/philly/?s=victor+lourng)
+# Other Jawns, Etc
 
 I also somehow made it onto a [Philly Tech 101](https://twitter.com/TechnicallyPHL/lists/philly-tech-101) list! :clap:
-
-I also have this odd habit of redesigning my website from scratch every year (and usually never finshing it!) Here's my [interenet glow up](https://www.urbandictionary.com/define.php?term=glow up) through the years: [2016](http://2016.victor.horse) [2015](http://2015.victor.horse) [2014](http://2014.victor.horse) [2013](http://2013.victor.horse) [2012](http://2012.victor.horse) [2011](http://2011.victor.horse) [2010](http://2010.victor.horse)
 
 # Important Notices
 
