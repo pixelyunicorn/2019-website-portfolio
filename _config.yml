@@ -29,7 +29,7 @@ google-analytics: "UA-33381009-6"
 typekit: "xmd5huf"
 
 # Commonly used lingo
-title: "Victor ✨"
+title: "Melody Starling ✨"
 location: "Philadelphia, PA, USA"
 email: contact@example.com
 description: > # this means to ignore newlines until the next colon
@@ -38,6 +38,3 @@ handle: pixelyunicorn
 
 # Offline debug flag
 dev: false
-
-# Flag that does the thing
-melody: false
