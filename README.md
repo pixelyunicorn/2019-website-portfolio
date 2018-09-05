@@ -48,9 +48,9 @@ screenshots-mobile: screenshots/hackclub-homepage-m.png
 
 # Optional photo display
 photos:
-  - [ work/codeday/voculus.svg, caption ]
-  - [ work/codeday/vtrophy.svg, caption ]
-  - [ work/codeday/vphone.svg, caption ]
+  - [ codeday/voculus.svg, caption ]
+  - [ codeday/vtrophy.svg, caption ]
+  - [ codeday/vphone.svg, caption ]
 ---
 
 You can start typing content here. <b>HTML is supported</b> and so is **markdown syntax.**

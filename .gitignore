@@ -21,5 +21,6 @@ coverage
 gh-pages/
 pkg/
 site/_site/
+sites/
 test/dest
 tmp/*
