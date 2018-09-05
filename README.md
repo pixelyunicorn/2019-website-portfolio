@@ -1,4 +1,4 @@
-# [victor.horse](http://victor.horse)
+# [melody.cool](https://melody.cool/)
 
 Built with Jekyll and hosted on GitHub Pages. Created for 2018's #May1Reboot event to showcase my most recent work.
 
