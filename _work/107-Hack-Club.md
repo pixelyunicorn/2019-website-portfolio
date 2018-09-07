@@ -21,14 +21,16 @@ pattern: patterns/hackclub-10.svg
 preview: hackclub/preview.svg
 
 stickers:
- - [ hackclub/Resources.svg, Resources ]
- - [ hackclub/Venue.svg, Venue ]
- - [ hackclub/Hackers.svg, Hackers ]
+ - [ hackclub/hack_club_letter.svg, The letter h on a red background ]
+ - [ hackclub/banner_orpheus_hand_rotated.svg, Hand holding banner that says Hack Club ]
+ - [ hackclub/hack-strikes-back.svg, The Hack Strikes Back ]
 
 screenshots: true
 screenshots-desktop: hackclub/homepage-d.png
 screenshots-mobile: hackclub/homepage-m.png
 ---
+
+{% include components/sticker.html sticker=1 float="right" top="-3em" %}
 
 # Homepage Design
 

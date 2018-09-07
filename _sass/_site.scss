@@ -1,6 +1,10 @@
 // TODO: This thing was built in a rush. In the near future, I want to seperate these bits into components!
 
+// Mask images from https://github.com/misenhower/splatoon2.ink
+
 $mask-image: "data:image/png;base64,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1dGro1dHr45eHb2OXh29Onp19Oro1dGro1dHr6NXR6+OXh29Onp19Oro1dGro9fRq6NXR6+OXh29Onp19OrodfTq6NXRq6NXR6+OXh29OnodvTp6dfTq6NXRq6NXR6+OXh29jl4dvTp6dfTq6NXRq6NXR6+jV0evjl4dvTp6dfTq6NXR6+jV0aujV0evjl4dvTp6dfTq6HX06ujV0aujV0evjl4dvTp6Hb06enX06ujV0aujV0evjl5Hr45eHb06enX06ujV0aujV0evo1dHr45eHb06enX06ujV0evo1dGro1dHr45eHb06enX0Onp19Oro1dGro1dHr45eHb06eh29Onp19Oro1dGro1dHr45eR6+OXh29Onp19Oro1dGro9fRq6NXR6+OXh29Onp19Oro1dHr6NXRq6NXR6+OXh29Onp19Dp6dfTq6NXRq6NXR6+OXh29jl4dvTp6dfTq6NXRq6NXR6+OXkevjl4dvTp6dfTq6NXRq6PX0aujV0evjl4dvTp6dfTq6HX06ujV0aujV0evjl4dvTp6dfQ6enX06ujV0aujV0evjl4dvY5eHb06enX06ujV0aujV0evo1dHr45eHb06enX06ujV0auj19Gro1dHr45eHb06enX06uh19Oro1dGro1dHr45eHb06eh29Onp19Oro1dGro1dHr45eR5+gjl4dvTp6dfTq6NXRq6NXR6+jV0evjl4dvTp6dfTq6NXR6+jV0aujV0evjl4dvTp6dfQ6enX06ujV0aujV0evjl4dvTp6Hb06enX06ujV0aujV0evjl5Hr45eHb06enX06ujV0auj19Gro1dHr45eHb06enX06ujV0evo1dGro1dHr45eHb06enX0Onp19Oro1dGro1dHr45eHb2OXh29Onp19Oro1dGro1dHr45eR6+OXh29Onp19Oro1dGro9fRq6NXR6+OXh29Onp19OrodfTq6NXRq6NXR6+OXh29Onp19Dp6dfTq6NXRq6NXR6+OXh29jl4dPezTAQkAAACAoP+vPaITguro1dGro1dHr45eHb2OXh29Onp19Oro1dGro1dHr45eR6+OXh29Onp19Oro1dGro9fRq6NXR6+OXh29Onp19OrodfTq6NXRq6NXR6+OXh29Onp19Dp6dfTq6NXRq6NXR6+OXh29jl4dvTp6dfTq6NXRq6NXR6+jV0evjl4dvTp6dfTq6NXRq6PX0aujV0evjl4dvTp6dfTq6HX06ujV0aujV0evjl4dvTp6Hb06enX06ujV0aujV0evjl4dvY5eHb06enX06ujV0aujV0evo1dHr45eHb06enX06ujV0evo1dGro1dHr45eHb06enX06uh19Oro1dGro1dHr45eHb06eh29Onp19Oro1dGro1dHr45eR6+OXh29Onp19Oro1dGro9fRJ6ijV0evjl4dvTp6dfTq6NXR6+jV0aujV0evjl4dvTp6dfQ6enX06ujV0aujV0evjl4dvY5eHb06enX06ujV0aujV0evjl5Hr45eHb06enX06ujV0auj19Gro1dHr45eHb06enX06uh19Oro1dGro1dHr45eHb06enX0Onp19Oro1dGro1dHr45eHb2OXh29Onp19Oro1dGro1dHr6NXR6+OXh29Onp19Oro1dGro9fRq6NXR6+OXh29Onp19OrodfTq6NXRq6NXR6+OXh29OnodvTp6dfTq6NXRq6NXR6+OXh29jl4dvTp6dfTq6NXRq6NXR6+jV0evjl4dvTp6dfTq6NXR6+jV0aujV0evjl4dvTp6dfTq6HX06ujV0aujV0evjl4dvTp6Hb06enX06ujV0aujV0evjl5Hr45eHb06enX06ujV0aujV0evo1dHr45eHb06enX06ujV0evo1dGro1dHr45eHb06enX0Onp19Oro1dGro1dHr45eHb06eh29Onp19Oro1dGro1dHr45eR6+OXh29Onp19Oro1dGro9fRq6NXR6+OXh29Onp19Oro1dHr6NXRq6NXR6+OXh29Onp19Dp6dfTq6NXRq6NXR6+OXh29jl4dvTp6dfTq6NXRq6NXR6+OXkevjl4dvTp6dfTq6NXRq6PX0aujV0evjl4dvTp6dfTq6HX06ujV0aujV0evjl4dvTp6HX2COnp19Oro1dGro1dHr45eHb2OXh29Onp19Oro1dGro1dHr6NXR6+OXh29Onp19Oro1dHr6NXRq6NXR6+OXh29Onp19OrodfTq6NXRq6NXR6+OXh29OnodvTp6dfTq6NXRq6NXR6+OXkevjl4dvTp6dfTq6NXRq6NXR6+jV0evjl4dvTp6dfTq6NXR6+jV0aujV0evjl4dvTp6dfQ6enX06ujV0aujV0evjl4dvTp6Hb06enX06ujV0aujV0evjl5Hr45eHb06enX06ujV0auj19Gro1dHr45eHb06enX06ujV0evo1dGro1dHr45eHb06enX0Onp19Oro1dGro1dHr45eHb2OXh29Onp19OrolfbpQAAAAABAkL/1BBuUQ6IDogOiA6KD6IDogOiA6IDogOiA6IDoIDogOiA6IDogOiA6IDogOogOiA6IDogOiA6IDogOiA6IDqIDogOiA6IDogOiA6IDooPogOiA6IDogOiA6IDowAg+YFmyhQ+ZRAAAAABJRU5ErkJggg==";
+
+$clip-image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAABmCAMAAAA6eNVMAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAzUExURUdwTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANtBLioAAAAQdFJOUwAQQCDwwKCAYOBwMLBQ0JD7FFHwAAACSUlEQVRo3sWa2Y7DIAxFE/Ytgf//2ulUmpGqkgBeYr9XpyIXLxdv21fkUG1s62Fd2DdkKAch/0cJGHhAsd8RgyD8N84MgWvbqCKt0w/T6MItH3wjDSdKX+QfjTwWvr829Pg2r/+Tgd7OWXpqLDF5/LvhwZu5CuAbU/gpfOTCG6FL9xcz1cfx4csE3vDhmx7SMyN94u4lTnyU/PSvUCO8ZcU7SeVNZL7GG0EWf8riR2WfG+9k8QPxceMH4mPHW1n8fd3hx1dZvJHF34rvAXyRxd+J7wm8l8VHWXw7ZPFFFt92Cnysr9YxJ8BUlgjwHj6URjw+YKwghcV/XN5K1fTAjm+PROID1g1PJD7gv1+eTE8UvqDzRcbgPRrvMDOeQuP7HffkhEuQrAN8vv/69Ipo3POwawPAd5seBfslxIGvUO2dJFZot+MuINWAnNgAe8jo3BmQJWRhnq6ncqQ0RPu9hAHzoXsd97B4erIWMQI87bjTdajdjrsulyqoE1yWndVuqlZA/MW45xanY/AbxMW4l/rJzxzE7z9XHbfuHUDR5M9Plx63rp830LjMYMPf2Yz68M6+wyfFZMOj9ztw+ESA5/EansC3jKbvjB73zHYPo8fNjW8Bi8c9/p1YPPLNPcviq1zWGXrc/His+LALD1Yu6Y0fWPjxVS7roMWHx9943I/stxW5rIMVHwXey2UdZNNDsu8BFx/JvoeTyzqojnunwSe5rIMRHxF+vNLEu97oZPHAjrsQ4YFND9mWGazjptstzXJZByo+TYc3PxSpCH6XThP6AAAAAElFTkSuQmCC";
 
 // Page header
 header {
@@ -135,14 +139,23 @@ wordart {
 // Stickers
 .sticker {
   position: absolute;
-  filter: drop-shadow(0 0 4px rgba(80,80,80,.5));
+
+  &:hover {
+    z-index: 50;
+  }
+
+  filter: drop-shadow(4px 4px 0 white) drop-shadow((-4px) 4px 0 white) drop-shadow(4px -4px 0 white) drop-shadow((-4px) -4px 0 white) drop-shadow(0 0 4px rgba(80, 80, 80, 0.25));
+
   &-right {
     left: 103%;
     top: 8vh;
   }
+
   &-left {
     right: 103%;
+
     // top: -1em;
+
   }
 }
 
@@ -155,15 +168,15 @@ wordart {
   text-align: center;
   color: white;
   box-shadow: 0px 10px 20px lightgray;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  background: rgba(250,250,250,.25);
+  border-radius: 8px;
+  background: rgba(250, 250, 250, 0.25);
+
   @extend .transition;
-  @for $i from 1 through 10 {
-    &:nth-child(#{$i}) {
-      transform: rotate((random(40)/10-2)+deg) rotateZ(0deg);
-    }
+
+  &:hover {
+    text-decoration: none;
   }
+
   &:after {
     content: ' ';
     position: absolute;
@@ -171,10 +184,12 @@ wordart {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(115deg, transparent 50%, rgba(80,120,180,.1) 51%, transparent 80%), rgba(0,0,0,.01);
+    background: linear-gradient(115deg, transparent 50%, rgba(80, 120, 180, 0.12) 51%, transparent 80%), rgba(0, 0, 0, 0.01);
   }
+
   &-label {
-    padding: .5em 1em;
+    position: relative;
+    padding: 2.5em 1em .5em;
     -webkit-mask-image: url($mask-image);
     -webkit-mask-position: center top;
     -webkit-mask-repeat: no-repeat;
@@ -186,42 +201,91 @@ wordart {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     z-index: 200;
+
+    &-hook {
+      padding-top: 1.5em;
+      background: $secondary;
+      -webkit-mask-image: none;
+      mask-image: none;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+
+      &:before {
+        background: $secondary;
+        content: ' ';
+        position: absolute;
+        bottom: 100%;
+        bottom: calc(100% - 1px);
+        left: 50%;
+        margin-left: -18px;
+        height: 29px;
+        width: 36px;
+        -webkit-mask-image: url($clip-image);
+        -webkit-mask-position: center top;
+        -webkit-mask-size: 36px 29px;
+        mask-image: url($clip-image);
+        mask-position: center top;
+        mask-size: 36px 29px;
+      }
+    }
   }
+
   &-bag, &-spacer {
     position: relative;
   }
+
   &:hover {
     color: $primary;
+
     // transform: rotate(inherit) scale(1.05);
-    box-shadow: 0px 10px 20px rgba(50, 80, 90, .5);
+    box-shadow: 0px 10px 20px rgba(50, 80, 90, 0.5);
   }
+
   .sticker {
-    bottom: 0;
-    max-width: 48%;
+    bottom: 12px;
+    max-width: 40%;
     max-height: 80%;
+
     &:nth-of-type(1) {
-      left: 0;
+      left: 12px;
     }
+
     &:nth-of-type(2) {
-      left: 25%;
+      left: 32%;
     }
+
     &:nth-of-type(3) {
-      right: 0;
+      right: 12px;
     }
-    @for $i from 1 through 10 {
-      &:nth-of-type(#{$i}) {
-        transform: rotate((random(80)/10-4)+deg);
-        // z-index: random(10);
+  }
+
+  // Random-ish rotation
+  @for $i from 1 through 9 {
+    &:nth-of-type(#{$i}) {
+      @for $j from 1 through 3 {
+        .sticker:nth-of-type(#{$j}) {
+          transform: rotate(random(200) / 10 - 10 + deg);
+        }
       }
     }
   }
 }
 
+@for $i from 1 through 4 {
+  .rotate-pattern-#{$i} {
+    @for $j from 1 through 6 {
+      > *:nth-of-type(#{$j}) {
+        transform: rotate(random(40) / 10 - 2 + deg) rotateZ(0deg);
+      }
+    }
+  }
+}
 
 #portfolio {
   .pf-item {
     color: black;
     margin-bottom: 0;
+
     &.pf-mini {
       height: auto;
       min-height: auto;
@@ -289,24 +353,47 @@ wordart {
   }
 }
 
-.hover-effect {
-  &-text {
-    display: inline-block;
-    &:after {
-      content: ' ';
-      position: absolute;
-      background: rgba(255,255,255,.25);
-    }
-  }
-  icon {
-
-  }
-  &:hover {
+.spack {
+  .hover-effect {
     &-text {
+      display: inline-block;
+      transition: 200ms ease transform;
 
+      &:after {
+        content: ' ';
+        position: absolute;
+        background: rgba(255, 255, 255, 0.2);
+        height: 100%;
+        width: 0;
+        top: 0;
+        left: 0;
+        transition: 200ms ease width;
+      }
     }
-    &-arrow-right {
 
+    [data-icon="arrow-right"] {
+      position: absolute;
+      left: 100%;
+      top: 0;
+      opacity: 0;
+      transition: 200ms ease transform, 200ms ease opacity;
+    }
+  }
+
+  &:hover {
+    .hover-effect {
+      &-text {
+        transform: translateX(-4px);
+
+        &:after {
+          width: 100%;
+        }
+      }
+
+      [data-icon="arrow-right"] {
+        opacity: 1;
+        transform: translateX(8px);
+      }
     }
   }
 }
@@ -416,92 +503,6 @@ wordart {
   border-bottom-left-radius: 1rem;
   position: relative;
   z-index: 90;
-}
-
-.play-thing {
-  font-size: 5rem;
-  position: absolute;
-  top: calc(100% - 3.8rem);
-  left: calc(100% - 2rem);
-  color: lighten($secondary, 20%);
-}
-
-// .portfolio-itrem {
-//   display: block;
-//   color: $white;
-//   h2 {
-//     border-bottom: 2px;
-//     position: relative;
-//     display: inline-block;
-//     text-align: left;
-//     .title-overlay {
-//       content: ' ';
-//       position: absolute;
-//       top: -.2rem;
-//       left: -.4rem;
-//       width: 100%;
-//       height: 100%;
-//       width: .2rem;
-//       height: calc(100% + .4rem);
-//       display: block;
-//       z-index: 1;
-//       background: rgba(250,250,250,.35);
-//       @extend .transition;
-//     }
-//     icon {
-//       position: absolute;
-//       top: 0;
-//       left: 100%;
-//       opacity: .5;
-//       @extend .transition-bounce;
-//     }
-//   }
-//   &-cover {
-//     margin-bottom: 0;
-//     background-size: cover;
-//     height: 13rem;
-//     border-top-left-radius: 2px;
-//     border-top-right-radius: 2px;
-//     box-shadow: 0 0 12px 2px rgba(0,0,0,.25);
-//     @extend .transition;
-//   }
-//   &:hover, &:focus {
-//     @for $i from 1 through 10 {
-//       &:nth-child(#{$i}) {
-//         h2 {
-//           .title-overlay {
-//             left: 1rem;
-//             width: calc(100% + .8rem);
-//             max-width: 280px;
-//             // TODO: Move to client side
-//             transform: perspective((random(20)+35)+px) rotateX((random(20)-10)+deg) rotateY((random(14)-7)+deg) rotateZ((random(20)-10)+deg);
-//           }
-//         }
-//       }
-//     }
-//     h2 icon {
-//       left: 110%;
-//       left: calc(100% + .4rem);
-//       opacity: 1;
-//     }
-//     .portfolio-itrem-cover {
-//       transform: translateY(-1rem) scale(1.02);
-//     }
-//   }
-// }
-
-.pixel_alicorn {
-  .mane, .skin {
-    transition: fill 200ms ease;
-  }
-
-  .mane {
-    fill: pink;
-  }
-
-  .skin {
-    fill: white;
-  }
 }
 
 // Portfolio page content

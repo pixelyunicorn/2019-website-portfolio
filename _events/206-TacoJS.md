@@ -21,12 +21,16 @@ pattern: hero-patterns/yyy-05.svg
 preview: tacojs/preview.png
 
 stickers:
+ - [ tacojs/shape-veggies.svg, sticker ]
  - [ tacojs/logo-sticker.png, sticker ]
+ - [ tacojs/shape-w.svg, sticker ]
 
 screenshots: true
 screenshots-desktop: tacojs/home-d.png
 screenshots-mobile: tacojs/home-m.png
 ---
+
+{% include components/sticker.html sticker=0 float="right" top="-8em" %}
 
 # Meetups are Boring. Let’s Change That.
 
@@ -34,7 +38,7 @@ I have found that a typical Philly tech meetup is boring. You grab beer, pizza, 
 
 What I can change that? :thinking:
 
-{% include components/sticker.html sticker=0 float="right" %}
+{% include components/sticker.html sticker=1 float="right" %}
 
 # That’s where TacoJS comes in.
 
@@ -60,6 +64,8 @@ I built a website for TacoJS using Jekyll. It's [open source on GitHub](https://
 > ![TacoJS logo](/media/tacojs/logo-icon.jpg)
 
 > ![A bunch of nametags](/media/tacojs/photo-nametags.jpg)
+
+{% include components/sticker.html sticker=2 float="right" %}
 
 # Come speak at TacoJS!!!1!
 
