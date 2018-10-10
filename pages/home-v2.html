@@ -31,7 +31,7 @@ pattern: hero-patterns/tic-tac-toe-05.svg
     <grid column-count="3" tablet-column-count="2" phone-column-count="1" class="rotate-pattern-1">
     {% for x in site.work %}
       {% assign idx = forloop.index | plus: 0 %}
-      <a href="{{ x.url }}" class="spack">
+      <a href="{{ x.url }}" class="spack {% if x.soon %}spack-soon{% endif %}">
         <div class="spack-label" style="background-color: {{ x.accent }}; background-image: url({{ site.baseurl }}/media/{{ x.pattern }}); background-repeat: repeat; background-size: initial;" data-accent="{{ x.accent }}" data-cycle="{% cycle 'odd', 'even' %}">
           <h3 class="hover-effect"><span class="hover-effect-text">{{ x.title }} <icon class="fas fa-arrow-right"></icon></span></h3>
           <p>{{ x.description }}</p>
@@ -39,6 +39,9 @@ pattern: hero-patterns/tic-tac-toe-05.svg
         <div class="spack-spacer">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAGQAQAAAABkR44+AAAAAnRSTlMAAHaTzTgAAAA4SURBVHgB7cGBAAAAAMOg+1MfZNXSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADiLEAABHj3GfAAAAABJRU5ErkJggg==" />
         </div>
+        {% if x.soon %}
+          <span class="spack-banner">Coming Soon!</span>
+        {% endif %}
         {% if x.stickers %}
           {% for img in x.stickers %}
             <img src="{{ site.baseurl }}/media/{{ img[0] }}" alt="{{ img[1] }}" class="sticker"/>
@@ -66,7 +69,7 @@ pattern: hero-patterns/tic-tac-toe-05.svg
     <grid column-count="3" phone-column-count="1" class="rotate-pattern-2">
     {% for x in site.events %}
       {% assign idx = forloop.index | plus: 0 %}
-      <a href="{{ x.url }}" class="spack">
+      <a href="{{ x.url }}" class="spack {% if x.soon %}spack-soon{% endif %}">
         <div class="spack-label" style="background-color: {{ x.accent }}; background-image: url({{ site.baseurl }}/media/{{ x.pattern }}); background-repeat: repeat; background-size: initial;" data-accent="{{ x.accent }}" data-cycle="{% cycle 'odd', 'even' %}">
           <h3 class="hover-effect"><span class="hover-effect-text">{{ x.title }} <icon class="fas fa-arrow-right"></icon></span></h3>
           <p>{{ x.description }}</p>
@@ -74,6 +77,9 @@ pattern: hero-patterns/tic-tac-toe-05.svg
         <div class="spack-spacer">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAGQAQAAAABkR44+AAAAAnRSTlMAAHaTzTgAAAA4SURBVHgB7cGBAAAAAMOg+1MfZNXSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADiLEAABHj3GfAAAAABJRU5ErkJggg==" />
         </div>
+        {% if x.soon %}
+          <span class="spack-banner">Coming Soon!</span>
+        {% endif %}
         {% if x.stickers %}
           {% for img in x.stickers %}
             <img src="{{ site.baseurl }}/media/{{ img[0] }}" alt="{{ img[1] }}" class="sticker"/>

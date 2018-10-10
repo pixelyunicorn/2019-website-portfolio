@@ -179,6 +179,23 @@ header#index {
     background: linear-gradient(115deg, transparent 50%, rgba(80, 120, 180, 0.12) 51%, transparent 80%), rgba(0, 0, 0, 0.01);
   }
 
+  &-soon {
+    pointer-events: none;
+    .spack-label {
+      opacity: .5;
+    }
+  }
+  &-banner {
+    background: $primary;
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 3em;
+    /* left: 10%; */
+    font-size: 1.5em;
+    color: black;
+  }
+
   &-label {
     position: relative;
     padding: 2.5em 1em .5em;
