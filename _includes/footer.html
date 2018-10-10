@@ -15,7 +15,7 @@
 
 </footer>
 
-<script src="{{ site.baseurl }}/scripts/site.js"></script>
+<script src="{{ site.baseurl }}/scripts/site.js?{{ site.time | date: "%s%N" }}"></script>
 
 {% if site.dev != true %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
