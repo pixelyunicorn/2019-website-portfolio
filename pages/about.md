@@ -16,7 +16,7 @@ pattern: hero-patterns/tic-tac-toe-05.svg
 ​
 ​ I (mostly) specialize in web design and development! Here's a taste of what I do:
 
-- **Web Development!** :earth_americas: This is the core of what I do, and because of that I make an effor to keep up with the latest in an ever-changing field. From the frontend to backend and everything in between, I can make magic happen.
+- **Web Development!** :earth_americas: This is the core of what I do, and because of that I make an effort to keep up with the latest in an ever-changing field. From the frontend to backend and everything in between, I can make magic happen.
 - **UI/UX Design!** :joy: I build products with humans in mind - with simple, straightforward, and joyful user interfaces. The general rule of thumb is that if you need to explain how to use your product, then it’s too complex.
 - **Community Management!**  :loudspeaker: I enjoy organizing community events to bring like-minded people together. I have launched numerous events and meetup groups, such as [TacoJS](/tacojs), [CodeDay Philly](/codeday), [High School Hackers](http://nyc.hshackers.org/hs-hack-exchange/), and more.
 
