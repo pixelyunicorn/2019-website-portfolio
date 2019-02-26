@@ -3,7 +3,7 @@ title: About
 permalink: /about
 layout: page
 
-lead: <b>Heya!</b> I go by Melody (or Victor) and use they/them pronouns. I've been doing web development seriously for over 8 years and before that I still couldn't put my computer away. I was always doing web development in my free time, and even in class! It was something I was and still am very passionate about today, so I decided to make it my career. <br> <br> I sell my services to clients all across the US &amp; Canada. One day I hope to be able to travel and meet new people around the world.
+lead: <b>Heya!</b> I go by Melody (or valerie) and use they/them pronouns. I've been doing web development seriously for over 8 years and before that I still couldn't put my computer away. I was always doing web development in my free time, and even in class! It was something I was and still am very passionate about today, so I decided to make it my career. <br> <br> I sell my services to clients all across the US &amp; Canada. One day I hope to be able to travel and meet new people around the world.
 
 header-text: white
 accent: rebeccapurple
@@ -13,8 +13,8 @@ pattern: hero-patterns/tic-tac-toe-05.svg
 ---
 
 # What I Do
-​
-​ I (mostly) specialize in web design and development! Here's a taste of what I do:
+
+I (mostly) specialize in web design and development! Here's a taste of what I do:
 
 - **Web Development!** :earth_americas: This is the core of what I do, and because of that I make an effort to keep up with the latest in an ever-changing field. From the frontend to backend and everything in between, I can make magic happen.
 - **UI/UX Design!** :joy: I build products with humans in mind - with simple, straightforward, and joyful user interfaces. The general rule of thumb is that if you need to explain how to use your product, then it’s too complex.
